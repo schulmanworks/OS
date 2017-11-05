@@ -8,8 +8,6 @@ asmlinkage int sys_print_other(void) {
     temp = current;
     id_to_find = temp->pid;
     struct task_struct *task;
-    //task = init_task;
-    //for (task=current; task != &init_task; task=task->parent) {
     printk(KERN_EMERG "Looking for pid %ld", id_to_find);
     for_each_process(task) {
         printk(KERN_EMERG "STATE %ld task name %s [%d]\n", task->state, task->comm, task->pid);
