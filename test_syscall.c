@@ -5,10 +5,12 @@
 #define __NR_helloworld 337
 #define __NR_print_self 338
 #define __NR_print_other 339
+#define __NR_virtualAddrSpace 340
 int main(int argc, char *argv[]) {
-    syscall(__NR_helloworld);
-    syscall(__NR_print_self);
-    syscall(__NR_print_other);
+    //syscall(__NR_helloworld);
+  //  syscall(__NR_print_self);
+//    syscall(__NR_print_other);
+    syscall(__NR_virtualAddrSpace);
     //syscall(400);
     return 0;
 }

@@ -1,0 +1,305 @@
+
+Hello World!
+Running sys_print_self 1
+state state: 0 task name: test_syscall [6804]
+state state: 1 task name: bash [1601]
+state state: 1 task name: login [1596]
+state state: 1 task name: init [1]
+Running sys_print_other 1
+Looking for pid 6804
+STATE 1 task name init [1]
+still looking for 6804
+STATE 1 task name kthreadd [2]
+still looking for 6804
+STATE 1 task name migration/0 [3]
+still looking for 6804
+STATE 1 task name ksoftirqd/0 [4]
+still looking for 6804
+STATE 1 task name watchdog/0 [5]
+still looking for 6804
+STATE 1 task name migration/1 [6]
+still looking for 6804
+STATE 1 task name ksoftirqd/1 [7]
+still looking for 6804
+STATE 1 task name watchdog/1 [8]
+still looking for 6804
+STATE 1 task name migration/2 [9]
+still looking for 6804
+STATE 1 task name ksoftirqd/2 [10]
+still looking for 6804
+STATE 1 task name watchdog/2 [11]
+still looking for 6804
+STATE 1 task name migration/3 [12]
+still looking for 6804
+STATE 1 task name ksoftirqd/3 [13]
+still looking for 6804
+STATE 1 task name watchdog/3 [14]
+still looking for 6804
+STATE 1 task name migration/4 [15]
+still looking for 6804
+STATE 1 task name ksoftirqd/4 [16]
+still looking for 6804
+STATE 1 task name watchdog/4 [17]
+still looking for 6804
+STATE 1 task name migration/5 [18]
+still looking for 6804
+STATE 1 task name ksoftirqd/5 [19]
+still looking for 6804
+STATE 1 task name watchdog/5 [20]
+still looking for 6804
+STATE 1 task name migration/6 [21]
+still looking for 6804
+STATE 1 task name ksoftirqd/6 [22]
+still looking for 6804
+STATE 1 task name watchdog/6 [23]
+still looking for 6804
+STATE 1 task name migration/7 [24]
+still looking for 6804
+STATE 1 task name ksoftirqd/7 [25]
+still looking for 6804
+STATE 1 task name watchdog/7 [26]
+still looking for 6804
+STATE 1 task name events/0 [27]
+still looking for 6804
+STATE 1 task name events/1 [28]
+still looking for 6804
+STATE 1 task name events/2 [29]
+still looking for 6804
+STATE 1 task name events/3 [30]
+still looking for 6804
+STATE 1 task name events/4 [31]
+still looking for 6804
+STATE 1 task name events/5 [32]
+still looking for 6804
+STATE 1 task name events/6 [33]
+still looking for 6804
+STATE 1 task name events/7 [34]
+still looking for 6804
+STATE 1 task name cpuset [35]
+still looking for 6804
+STATE 1 task name khelper [36]
+still looking for 6804
+STATE 1 task name netns [37]
+still looking for 6804
+STATE 1 task name async/mgr [38]
+still looking for 6804
+STATE 1 task name pm [39]
+still looking for 6804
+STATE 1 task name sync_supers [40]
+still looking for 6804
+STATE 1 task name bdi-default [41]
+still looking for 6804
+STATE 1 task name kintegrityd/0 [42]
+still looking for 6804
+STATE 1 task name kintegrityd/1 [43]
+still looking for 6804
+STATE 1 task name kintegrityd/2 [44]
+still looking for 6804
+STATE 1 task name kintegrityd/3 [45]
+still looking for 6804
+STATE 1 task name kintegrityd/4 [46]
+still looking for 6804
+STATE 1 task name kintegrityd/5 [47]
+still looking for 6804
+STATE 1 task name kintegrityd/6 [48]
+still looking for 6804
+STATE 1 task name kintegrityd/7 [49]
+still looking for 6804
+STATE 1 task name kblockd/0 [50]
+still looking for 6804
+STATE 1 task name kblockd/1 [51]
+still looking for 6804
+STATE 1 task name kblockd/2 [52]
+still looking for 6804
+STATE 1 task name kblockd/3 [53]
+still looking for 6804
+STATE 1 task name kblockd/4 [54]
+still looking for 6804
+STATE 1 task name kblockd/5 [55]
+still looking for 6804
+STATE 1 task name kblockd/6 [56]
+still looking for 6804
+STATE 1 task name kblockd/7 [57]
+still looking for 6804
+STATE 1 task name kacpid [58]
+still looking for 6804
+STATE 1 task name kacpi_notify [59]
+still looking for 6804
+STATE 1 task name kacpi_hotplug [60]
+still looking for 6804
+STATE 1 task name ata/0 [61]
+still looking for 6804
+STATE 1 task name ata/1 [62]
+still looking for 6804
+STATE 1 task name ata/2 [63]
+still looking for 6804
+STATE 1 task name ata/3 [64]
+still looking for 6804
+STATE 1 task name ata/4 [65]
+still looking for 6804
+STATE 1 task name ata/5 [66]
+still looking for 6804
+STATE 1 task name ata/6 [67]
+still looking for 6804
+STATE 1 task name ata/7 [68]
+still looking for 6804
+STATE 1 task name ata_aux [69]
+still looking for 6804
+STATE 1 task name ksuspend_usbd [70]
+still looking for 6804
+STATE 1 task name khubd [71]
+still looking for 6804
+STATE 1 task name kseriod [72]
+still looking for 6804
+STATE 1 task name khungtaskd [81]
+still looking for 6804
+STATE 1 task name kswapd0 [82]
+still looking for 6804
+STATE 1 task name ksmd [83]
+still looking for 6804
+STATE 1 task name aio/0 [84]
+still looking for 6804
+STATE 1 task name aio/1 [85]
+still looking for 6804
+STATE 1 task name aio/2 [86]
+still looking for 6804
+STATE 1 task name aio/3 [87]
+still looking for 6804
+STATE 1 task name aio/4 [88]
+still looking for 6804
+STATE 1 task name aio/5 [89]
+still looking for 6804
+STATE 1 task name aio/6 [90]
+still looking for 6804
+STATE 1 task name aio/7 [91]
+still looking for 6804
+STATE 1 task name crypto/0 [92]
+still looking for 6804
+STATE 1 task name crypto/1 [93]
+still looking for 6804
+STATE 1 task name crypto/2 [94]
+still looking for 6804
+STATE 1 task name crypto/3 [95]
+still looking for 6804
+STATE 1 task name crypto/4 [96]
+still looking for 6804
+STATE 1 task name crypto/5 [97]
+still looking for 6804
+STATE 1 task name crypto/6 [98]
+still looking for 6804
+STATE 1 task name crypto/7 [99]
+still looking for 6804
+STATE 1 task name pciehpd [104]
+still looking for 6804
+STATE 1 task name kpsmoused [106]
+still looking for 6804
+STATE 1 task name usbhid_resumer [107]
+still looking for 6804
+STATE 1 task name kstriped [137]
+still looking for 6804
+STATE 1 task name scsi_eh_0 [238]
+still looking for 6804
+STATE 1 task name scsi_eh_1 [241]
+still looking for 6804
+STATE 1 task name mpt_poll_0 [283]
+still looking for 6804
+STATE 1 task name mpt/0 [284]
+still looking for 6804
+STATE 1 task name scsi_eh_2 [285]
+still looking for 6804
+STATE 1 task name kdmflush [399]
+still looking for 6804
+STATE 1 task name kdmflush [401]
+still looking for 6804
+STATE 1 task name jbd2/dm-0-8 [420]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [421]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [422]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [423]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [424]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [425]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [426]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [427]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [428]
+still looking for 6804
+STATE 1 task name udevd [504]
+still looking for 6804
+STATE 1 task name jbd2/sda1-8 [898]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [899]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [900]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [901]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [902]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [903]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [904]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [905]
+still looking for 6804
+STATE 1 task name ext4-dio-unwrit [906]
+still looking for 6804
+STATE 1 task name kauditd [943]
+still looking for 6804
+STATE 1 task name flush-253:0 [1108]
+still looking for 6804
+STATE 1 task name dhclient [1149]
+still looking for 6804
+STATE 1 task name auditd [1193]
+still looking for 6804
+STATE 1 task name rsyslogd [1209]
+still looking for 6804
+STATE 1 task name dbus-daemon [1221]
+still looking for 6804
+STATE 1 task name master [1329]
+still looking for 6804
+STATE 1 task name qmgr [1337]
+still looking for 6804
+STATE 1 task name qpidd [1342]
+still looking for 6804
+STATE 1 task name crond [1377]
+still looking for 6804
+STATE 1 task name mingetty [1392]
+still looking for 6804
+STATE 1 task name mingetty [1394]
+still looking for 6804
+STATE 1 task name mingetty [1399]
+still looking for 6804
+STATE 1 task name udevd [1401]
+still looking for 6804
+STATE 1 task name udevd [1402]
+still looking for 6804
+STATE 1 task name mingetty [1403]
+still looking for 6804
+STATE 1 task name mingetty [1405]
+still looking for 6804
+STATE 1 task name console-kit-dae [1410]
+still looking for 6804
+STATE 1 task name login [1596]
+still looking for 6804
+STATE 1 task name bash [1601]
+still looking for 6804
+STATE 1 task name sshd [1679]
+still looking for 6804
+STATE 1 task name pickup [6683]
+still looking for 6804
+STATE 1 task name sshd [6704]
+still looking for 6804
+STATE 1 task name bash [6709]
+still looking for 6804
+STATE 1 task name su [6725]
+still looking for 6804
+STATE 1 task name bash [6726]
+still looking for 6804
+STATE 0 task name test_syscall [6804]
+found your pid

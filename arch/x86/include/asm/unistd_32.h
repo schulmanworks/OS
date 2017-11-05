@@ -345,6 +345,7 @@
 #define __NR_helloworld         337
 #define __NR_print_self         338
 #define __NR_print_other        339
+#define __NR_virtualAddrSpace   340
 #ifdef __KERNEL__
 
 #define NR_syscalls 340

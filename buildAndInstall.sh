@@ -8,3 +8,4 @@ cp System.map /boot/System.map-$KERNELVERSION
 new-kernel-pkg --mkinitrd --install $KERNELVERSION
 echo "Made kernel for $KERNELVERSION"
 gcc test_syscall.c -o test_syscall
+gcc test_syscall.c -o test_syscall

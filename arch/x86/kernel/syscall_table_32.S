@@ -339,3 +339,4 @@ ENTRY(sys_call_table)
         .long sys_helloworld            /* 337 */
         .long sys_print_self            /* 338 */
         .long sys_print_other
+	.long sys_virtualAddrSpace
