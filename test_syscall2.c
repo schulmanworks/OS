@@ -11,6 +11,7 @@ int main(int argc, char *argv[]){
   printf("%s\n", argv[1]);
   tmp = strtol(hold,&pEnd,16);
   printf("output: %ld, %x\n",tmp,tmp);
-  //syscall(341, tmp);
+  printf("calling sys_specificAddr");
+  syscall(341, tmp);
   return 0;
 }
