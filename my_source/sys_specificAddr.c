@@ -2,8 +2,8 @@
 #include <linux/sched.h>
 #include <linux/mm_types.h>
 #include <asm/pgtable.h>
-asmlinkage int sys_specificAddr(unsigned long int specAddr)
-    long int id_to_find = pid;
+asmlinkage int sys_specificAddr(unsigned long int specAddr) {
+    long int id_to_find = current;
     struct task_struct *task;
     struct mm_struct *mm;
     struct vm_area_struct *initial_vma;
@@ -14,9 +14,10 @@ asmlinkage int sys_specificAddr(unsigned long int specAddr)
     pte_t *pte;
     spinlock_t * lock;
     int present;
+    printk(KERN_EMERG "Process is running\n");
     for_each_process(task) {
         if (task->pid == id_to_find) {
-            printk(KERN_EMERG "Process found");
+            printk(KERN_EMERG "Process found\n");
             break;
         }
     }
