@@ -8,16 +8,17 @@ int main(int argc, char *argv[]){
   const char *hold = argv[1];
   unsigned long int tmp;
   char * pEnd;
-  int exists;
+  int exists,i;
   printf("%s\n", argv[1]);
   tmp = strtoul(hold,&pEnd,16);
   printf("output: %uld, %x\n",tmp,tmp);
-  printf("calling sys_specificAddr\n");
+  printf("calling sys_specificAddr\n\n");
   exists =  syscall(341, tmp);
+  for(i=0;i<100000000;i++){} //prints after kernel calls 
   if(exists)
-     printf("found in memory\n");
+     printf("\nfound in memory\n");
   else
-     printf("not found in memory\n");
+     printf("\nnot found in memory\n");
   printf("returned: %d\n",exists);
   return 0;
 }

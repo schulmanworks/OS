@@ -25,9 +25,7 @@ asmlinkage int sys_specificAddr(unsigned long int specAddr) {
     pte_t *ptep, pte;
     spinlock_t * lock;
     int present;
-    printk(KERN_EMERG "spec 1\n");
     id_to_find = current->pid;
-    printk(KERN_EMERG "spec 2\n");
     printk(KERN_EMERG "Process is running\n");
     for_each_process(task) {
         if (task->pid == id_to_find) {
@@ -37,9 +35,6 @@ asmlinkage int sys_specificAddr(unsigned long int specAddr) {
     }
     mm = task->mm;
     initial_vma = mm->mmap;
-    //for(current_vma = initial_vma; current_vma != NULL; current_vma = current_vma->vm_next) {
-    //    spaceSize += current_vma->vm_end - current_vma->vm_start;
-    //}
     pgd = pgd_offset(mm, specAddr);
     if (pgd_none(*pgd) || pgd_bad(*pgd))
         return 0;
@@ -50,7 +45,6 @@ asmlinkage int sys_specificAddr(unsigned long int specAddr) {
     if (pmd_none(*pmd) || pmd_bad(*pmd))
         return 0;
     ptep = pte_offset_map_lock(mm, pmd, specAddr, &lock);
-    //pte = pte_offset(pmd, specAddr);
     if (!ptep)
         return 0;
     pte = *ptep;
