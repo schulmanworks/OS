@@ -10,10 +10,14 @@ int main(int argc, char *argv[]){
   char * pEnd;
   int exists;
   printf("%s\n", argv[1]);
-  tmp = strtol(hold,&pEnd,16);
-  printf("output: %ld, %x\n",tmp,tmp);
-  printf("calling sys_specificAddr");
+  tmp = strtoul(hold,&pEnd,16);
+  printf("output: %uld, %x\n",tmp,tmp);
+  printf("calling sys_specificAddr\n");
   exists =  syscall(341, tmp);
-  printf("returned: %d",exists);
+  if(exists)
+     printf("found in memory\n");
+  else
+     printf("not found in memory\n");
+  printf("returned: %d\n",exists);
   return 0;
 }

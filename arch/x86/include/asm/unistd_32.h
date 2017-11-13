@@ -349,7 +349,7 @@
 #define __NR_specificAddr	341
 #ifdef __KERNEL__
 
-#define NR_syscalls 340
+#define NR_syscalls 341
 
 #define __ARCH_WANT_IPC_PARSE_VERSION
 #define __ARCH_WANT_OLD_READDIR
