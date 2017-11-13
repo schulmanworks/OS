@@ -4,7 +4,6 @@
 #include <linux/mm.h>
 //#include <asm/pgtable.h>
 
-
 #include <linux/pagemap.h>
 #include <linux/rmap.h>
 #include <linux/swap.h>
@@ -16,9 +15,7 @@
 
 
 asmlinkage int sys_specificAddr(unsigned long int specAddr) {
-    printk(KERN_EMERG "spec 1\n");
-    long int id_to_find = current->pid;
-    printk(KERN_EMERG "spec 2\n");
+    long int id_to_find;
     struct task_struct *task;
     struct mm_struct *mm;
     struct vm_area_struct *initial_vma;
@@ -28,6 +25,9 @@ asmlinkage int sys_specificAddr(unsigned long int specAddr) {
     pte_t *ptep, pte;
     spinlock_t * lock;
     int present;
+    printk(KERN_EMERG "spec 1\n");
+    id_to_find = current->pid;
+    printk(KERN_EMERG "spec 2\n");
     printk(KERN_EMERG "Process is running\n");
     for_each_process(task) {
         if (task->pid == id_to_find) {
