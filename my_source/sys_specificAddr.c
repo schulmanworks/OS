@@ -16,7 +16,9 @@
 
 
 asmlinkage int sys_specificAddr(unsigned long int specAddr) {
+    printk(KERN_EMERG "spec 1\n");
     long int id_to_find = current->pid;
+    printk(KERN_EMERG "spec 2\n");
     struct task_struct *task;
     struct mm_struct *mm;
     struct vm_area_struct *initial_vma;
